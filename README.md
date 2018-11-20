@@ -2,6 +2,7 @@
 Behaviour-driven development (BDD) extends the Test-Driven Development (TDD) approach by the ‘desired behaviour’ of a software. It is designed to ensure a collaboration between business analysts and developers with explicitly written down scenarios. The basic structure for BDD is:
 
 > **Story**: Returns go to stock
+
 > As a store owner
 In order to keep track of stock
 I want to add items back to stock when they're returned.
