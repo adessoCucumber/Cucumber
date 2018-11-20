@@ -51,9 +51,9 @@ Coming soon ...
 - Github authorisation and include own repositories
 
 ### Reference Projects
-Cucumber UI: https://github.com/ankur-kushwaha/Cucumber-UI
-Xray for Jira: https://www.getxray.app/
-CukeTest: http://cuketest.com/
+- Cucumber UI: https://github.com/ankur-kushwaha/Cucumber-UI
+- Xray for Jira: https://www.getxray.app/
+- CukeTest: http://cuketest.com/
 
 ### License
 Copyright (c) 2018 Adesso AG
