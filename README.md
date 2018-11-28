@@ -37,8 +37,9 @@ The first prototype shall include following elements:
 
 Demo Prototype: Coming soon ...
 
-### 2. Workflow
-Coming soon ...
+### 2. Visualization
+![alt text](https://github.com/fr4gstar/Cucumber/blob/master/docs/1.%20Use%20Case.png "Use Case Diagram")
+
 
 ### Additional Features we have in mind for further stages:
 - Test Reporting
