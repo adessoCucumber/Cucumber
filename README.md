@@ -27,7 +27,7 @@ This project´s goal is to achieve an automated generation of tests from the def
 To start the frontend and backend application: ``npm start``
 
 ### 1. Prototype
-The scope of the first prototype is to cover web applications and integrate Github.com as issue tracking tool. The issues from the Github are used to createTherefore the test scenarios will be only cover some basic web application elements. 
+The scope of the first prototype is to cover simple web applications and integrate github.com as s story tracking tool. The issues from GitHub are used to create stories (and scenarios) by adding a "story"-tag to them. The test scenarios will only cover some basic web application elements and simple steps.
 The first prototype shall include following elements:
 - Button
 - Input field
@@ -36,8 +36,6 @@ The first prototype shall include following elements:
 - 'Website'
 
 Demo Prototype: Coming soon ...
-Demo Backend: https://cucumberapp.herokuapp.com/ 
-
 
 ### 2. Visualization
 #### 2.1 Use Case Diagram
@@ -48,10 +46,10 @@ Demo Backend: https://cucumberapp.herokuapp.com/
 
 ### Additional Features we have in mind for further stages:
 - Test Reporting
-- Templates Feature
+- Feature Templates
 - E2E Test execution (e.g. selenium)
 - Additional integration of other project management and issue tracking tool (Jira, Redmine etc.)
-- Integration in project mangement and issue tracking tools as a plugin
+- Integration in project management and issue tracking tools as a plugin
 - Extend the scope to native applications (Java, C# etc.)
 - Include additional steps
 - Steps editor
