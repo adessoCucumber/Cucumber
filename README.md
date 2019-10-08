@@ -1,5 +1,5 @@
 # Seed-Test App
-Behaviour-driven development (BDD) extends the Test-Driven Development (TDD) approach by the ‘desired behaviour’ of a software. It is designed to ensure a collaboration between business analysts and developers with explicitly written down scenarios. The basic structure for BDD is:
+Behaviour-driven development (BDD) extends the Test-Driven Development (TDD) approach by the ‘desired behaviour’ of a software. It is designed to ensure a collaboration between business analysts and developers with explicitly written down scenarios.
 
 ### Loginvorgang
 Die benötigten Daten für den Loginvorgang bestehen aus zwei Komponenten – Ihrem GitHub-Namen und dem dazugehörigen GitHub-Account-Token. 
