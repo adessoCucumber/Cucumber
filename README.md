@@ -1,22 +1,18 @@
 # Seed-Test
-===========
 Behaviour-driven development (BDD) extends the Test-Driven Development (TDD) approach by the ‘desired behaviour’ of a software. It is designed to ensure a collaboration between business analysts and developers with explicitly written down scenarios.
 
 *   Check out the [Tutorial](https://github.com/adessoCucumber/Cucumber/wiki/Tutorial)
 
 
 ## What is Seed-Test?
-=====================
 Seed-Test is a website user interface testing tool, which uses approaches of behaviour-driven development and the notation of Gherkin to enable developers and business users to execute automated tests for their website. It can be tested on the official [website](https://cucumber-app.herokuapp.com/).
 
 We are greateful for any testing and feedback, so please help us by filling out this [feedback form](https://cucumber-app.herokuapp.com/feedback)
 
 ## Bugs, Problems ...
-=====================
 Please contact us via mail seed-test@adesso.de
 
 ## Installation
-===============
 To install and use the application localy, clone the repository.
 It is necessary to install [NodeJS](https://nodejs.org/en/).
 Install Angular 7:
