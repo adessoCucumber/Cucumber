@@ -66,9 +66,9 @@ In diesem Kapitel finden Sie nützliche Aktionen, die Sie neben den Hauptaktione
 
 ### Nützliche Links
 In diesem Kapitel finden Sie eine Auflistung nützlicher Links, welche bei Problemen helfen sollen.
-[Gherkin](https://cucumber.io/docs/gherkin/reference/)
-[BDD](https://cucumber.io/docs/bdd/)
-[Cucumber](https://cucumber.io/docs/cucumber/)
+* [Gherkin](https://cucumber.io/docs/gherkin/reference/)
+* [BDD](https://cucumber.io/docs/bdd/)
+* [Cucumber](https://cucumber.io/docs/cucumber/)
 
 
 ### License
