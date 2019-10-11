@@ -27,10 +27,12 @@ npm install
 For the frontend server, remember to change the link to the backend server in the api-service.ts file.
 To run the frontend server switch to the frontend folder and use this command:
 ```
+cd frontend
 ng serve
 ```
 To run the backend server switch to the backend folder and use this command:
 ```
+cd backend
 npm start
 ```
 
