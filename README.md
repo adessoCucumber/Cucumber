@@ -36,10 +36,19 @@ cd backend
 npm start
 ```
 
-CAUTION: Currently the our test database is connected so if you want to use your own database more info will be provided soon.
+## Database
+Seed-Test uses a MongoDB. You can either create your own locally or in the cloud.
+For installation details check out our Check out the [Database Tutorial](https://github.com/adessoCucumber/Cucumber/wiki/Database)
 
+Once you set up the database, insert the uri into the mongodatabase.js file in the backend folder.
+Save it!
 
-
+Then you can set up the database through this command:
+```
+npm run database
+```
+This command creates the collections 'Stories' and 'stepDefinitions' and inserts the current stepDefinitions into the collection.
+The Stories collection can stay empty. It will be automatically filled while accessing the web-app.
 
 ### License
 
