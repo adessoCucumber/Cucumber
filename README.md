@@ -36,6 +36,9 @@ cd backend
 npm start
 ```
 
+Change the environment variables for the backend in the `.env` file.
+Change the environment variables for the frontend in the `constants.ts` file
+
 ## Database
 Seed-Test uses a MongoDB. You can either create your own locally or in the cloud.
 For installation details check out our Check out the [Database Tutorial](https://github.com/adessoCucumber/Cucumber/wiki/Database)
