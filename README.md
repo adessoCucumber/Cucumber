@@ -19,7 +19,7 @@ Install Angular 7:
 ```
 npm install -g @angular/cli 
 ```
-Then install all necessary node modules:
+Then install all necessary node modules once in the backend and in the frontend folder:
 ```
 npm install
 ```
