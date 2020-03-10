@@ -5,9 +5,9 @@ Behaviour-driven development (BDD) extends the Test-Driven Development (TDD) app
 
 
 ## What is Seed-Test?
-Seed-Test is a website user interface testing tool, which uses approaches of behaviour-driven development and the notation of Gherkin to enable developers and business users to execute automated tests for their website. It can be tested on the official [website](https://cucumber-app.herokuapp.com/).
+Seed-Test is a website user interface testing tool, which uses approaches of behaviour-driven development and the notation of Gherkin to enable developers and business users to execute automated tests for their website. It can be tested on the official [website](https://seed-test-frontend.herokuapp.com/).
 
-We are greateful for any testing and feedback, so please help us by filling out this [feedback form](https://cucumber-app.herokuapp.com/feedback)
+We are greateful for any testing and feedback, so please help us by filling out this [feedback form](https://seed-test-frontend.herokuapp.com/feedback)
 
 ## Bugs, Problems ...
 Please contact us via mail seed-test@adesso.de
@@ -24,11 +24,10 @@ Then install all necessary node modules once in the backend and in the frontend 
 npm install
 ```
 
-For the frontend server, remember to change the link to the backend server in the api-service.ts file.
 To run the frontend server switch to the frontend folder and use this command:
 ```
 cd frontend
-ng serve
+npm start
 ```
 To run the backend server switch to the backend folder and use this command:
 ```
@@ -36,8 +35,16 @@ cd backend
 npm start
 ```
 
-Change the environment variables for the backend in the `.env` file.
-Change the environment variables for the frontend in the `constants.ts` file
+Create an `.env` file with following variables:
+```
+DATABASE_URI
+CHROMEDRIVER_VERSION
+FIREFOX_VERSION
+REPORT_DELETION_TIME
+TESTACCOUNT_NAME
+TESTACCOUNT_TOKEN
+PORT
+```
 
 ## Database
 Seed-Test uses a MongoDB. You can either create your own locally or in the cloud.
@@ -50,7 +57,7 @@ Then you can set up the database through this command:
 ```
 npm run database
 ```
-This command creates the collections 'Stories' and 'stepDefinitions' and inserts the current stepDefinitions into the collection.
+This command creates the collections 'Stories' and 'stepTypes' and inserts the current stepTypes into the collection.
 The Stories collection can stay empty. It will be automatically filled while accessing the web-app.
 
 ### License
