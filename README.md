@@ -24,6 +24,7 @@ Then install all necessary node modules once in the backend and in the frontend 
 npm install
 ```
 
+For the frontend server, remember to change the link to the backend server in the api-service.ts file.
 To run the frontend server switch to the frontend folder and use this command:
 ```
 cd frontend
@@ -35,20 +36,23 @@ cd backend
 npm start
 ```
 
-Create an `.env` file with following variables:
+Create an `.env` file in the backend folder with following variables:
 ```
 DATABASE_URI
-CHROMEDRIVER_VERSION
-FIREFOX_VERSION
 REPORT_DELETION_TIME
 TESTACCOUNT_NAME
 TESTACCOUNT_TOKEN
 PORT
 ```
 
+Create an `.env` file in the frontend folder with following variables:
+```
+API_SERVER=http://localhost:8080/api
+```
+
 ## Database
 Seed-Test uses a MongoDB. You can either create your own locally or in the cloud.
-For installation details check out our Check out the [Database Tutorial](https://github.com/adessoCucumber/Cucumber/wiki/Database)
+For installation details check out our Check out the [Database Tutorial](https://github.com/adessoAG/Seed-Test/wiki/Database)
 
 Once you set up the database, insert the uri into the mongodatabase.js file in the backend folder.
 Save it!
